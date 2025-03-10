@@ -1,0 +1,89 @@
+body {
+font-family: 'Time new roman', sans-serif;
+    background-color: rgb(240, 248, 255);
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Container chính */
+.container {
+    max-width: 700px;
+    margin: 20px auto;
+    background: rgb(243, 241, 241);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Ảnh đại diện */
+.profile img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 3px solid #007bff;
+    margin-bottom: 10px;
+}
+
+/* Tiêu đề */
+h1 {
+    font-size: 26px;
+    color: #333;
+    margin: 10px 0 5px;
+}
+
+h2 {
+    font-size: 20px;
+    color: #007bff;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 5px;
+    margin-top: 20px;
+    text-align: left;
+}
+
+/* Nội dung văn bản */
+p {
+    font-size: 16px;
+    color: #555;
+    text-align: left;
+}
+
+/* Danh sách kỹ năng */
+ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+}
+
+ul li {
+    background: #ff0095;
+    color: white;
+    display: inline-block;
+    padding: 8px 12px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+/* Các phần nội dung */
+section {
+    background: #ffffff;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin: 10px;
+}
+th, td{
+    border: 1px rgb(29, 28, 28);
+    padding: 8px;
+    text-align: left;
+}
+th{
+    background-color: #f0f8ff;
+    color: rgb(19, 18, 18);
+}
