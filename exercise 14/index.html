@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="#" id="main_form">
+  <input type="number" id="number1">
+  <br>
+  <button onclick="checkNumbers();">Check</button>
+  <p id="result"></p>
+    </form>
+
+    <script>  
+      function checkNumbers(){
+        var x =parseInt(document.getElementById("number1").value);
+     if (isNaN(num1)||isNaN(num2)){
+        document.getElementById('result').innerText="Please enter valid numbers.";
+        return;
+     }
+     alert("The sum is:"+(num1+num2))
+      }
+    </script>
+</body>
+</html>

@@ -1,0 +1,51 @@
+p{
+    color: antiquewhite;
+}
+p#primary{
+    color: black;
+}
+p.primary{
+    color: aqua;
+}
+div#desceant a{
+    color: antiquewhite;
+}
+div > a {
+    color: orange;
+}
+p + p {
+    color: burlywood;
+}
+.red{
+    color: red;
+}
+.blue{
+    color: blue;
+}
+.bold{
+    font-weight: bold;
+}
+.italic{
+    font-style: italic;
+}
+p[chucnang="vip"], .test{
+    color: black;
+}
+h1#header.intro {
+    color: black;
+}
+h1:hover {
+    color: blue;
+}
+body:active {
+    background: pink;
+}
+a ::before{
+    content: "Link: [";
+}
+a ::after{
+    content: "]";
+}
+li :nth-child(2n) {
+    color: palegreen;
+}

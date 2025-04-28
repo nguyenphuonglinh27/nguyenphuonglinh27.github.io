@@ -1,0 +1,9 @@
+div {
+    width: 400px;
+}
+div:nth-child {
+background: yellow;
+}
+div:nth-child {
+    background: yellow;
+}
